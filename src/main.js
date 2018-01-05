@@ -27,7 +27,9 @@ var app = new Vue({
 			<component ref="view" :is="currentView"></component>
 		</div>`,
 	data: {
-		currentView: null
+		currentView: null,
+		userInfo: null,
+		siteInfo: null
 	}
 });
 
